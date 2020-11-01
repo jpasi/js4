@@ -14,8 +14,8 @@ h1{
 
 
 
-body div {
-    padding: 20px;
+body form {
+    padding: 30px;
     width: 630px;
     background-color:gray;
     border-radius: 5px;
@@ -23,9 +23,10 @@ body div {
     border-style: solid;  
 }
 
-body div div {
+body form div {
     width: 150px;
     height: 40px;
     display: inline-block;
     border-style: unset;
+    padding: 10px;
 }

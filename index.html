@@ -10,7 +10,7 @@
         <h1>Cadastro</h1>
     
 
-    <div>
+    <form  id="regi" action="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_preventdefault" method="post">
         <div>
             <label for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome">
@@ -28,9 +28,59 @@
 
         <div>
             <br>
-            <input type="submit" value="Submit">
+            <input id = "sub"  type="submit" value="Cadastrar">
         </div>
+    </form>
+    
+    
+
+    <div>
+        <!-- todos os cadastros -->
+        <div>
+                <!-- aparecer "Registro de"  -->
+            <h2 id = Registros>
+            </h2>
+            <!-- Nomes cadastrados -->
+            <div id="Nombres"><ul></ul></div>
+
+        </div>
+        
+        
+        <!-- mais velho -->
+        <div>
+                <!-- aparecer "Registro de"  -->
+                <h2 id = Old>
+                
+                </h2>
+                <!-- Mais velho -->
+                <p id= "Oldp">
+
+                </p>
+        </div>
+        
+
+        <!-- familia -->
+        <div>
+            <!-- aparecer "Registro de"  -->
+            <h2 id = F>
+            
+            </h2>
+            <!-- Nomes cadastrados -->
+            <div id="Fa"><ul></ul></div>
+        </div>
+
+
+        <!-- mais novo -->
+        <div>
+            <!-- aparecer "Registro de"  -->
+            <h2 id = Newp>
+            
+            </h2>
+         
+        </div>
+
     </div>
 
+<script src="script.js"></script>
 </body>
 </html>
